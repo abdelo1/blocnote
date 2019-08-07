@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+  android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/ic_logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/ic_logo_auth"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/img_margin_top"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_connexion"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/btn_custom"
+                    android:textColor="#FFF"
+                    android:text="Connexion"
+                    android:textSize="@dimen/text_size"
+                    android:textAllCaps="false"
+
+                    />
+
+                <Button
+                    android:id="@+id/btn_inscription"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:text="Inscription"
+                    android:background="@drawable/btn_custom"
+                    android:textColor="#FFF"
+
+                   android:textSize="@dimen/text_size"
+                    android:layout_marginTop="20sp"
+                    android:textAllCaps="false" />
+        </LinearLayout>
+
+</LinearLayout>

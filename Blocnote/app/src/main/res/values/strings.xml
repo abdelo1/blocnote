@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Mogo</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">IstChat</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Se déconnecter</string>
+
+    <string name="menu_home">Mon profil</string>
+    <string name="menu_gallery">Messages</string>
+    <string name="menu_slideshow">Evènemements</string>
+    <string name="menu_tools">Paramètres</string>
+    <string name="notifications_admin_channel_name">IST</string>
+    <string name="notifications_admin_channel_description">TITLE</string>
+
+</resources>
